@@ -134,14 +134,6 @@ a{
 .team{
     background-color: #F4F4FD;
 }
-.sub-title{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
 .footer-container{
     background-color: #2e2f42;
 }
@@ -187,6 +179,12 @@ a{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2e2f42;
 }
 .description-list{
     display: flex;
