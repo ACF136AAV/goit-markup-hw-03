@@ -162,7 +162,9 @@ a{
     margin-left: 0;
     margin-right: 0;
     display: flex;
-    margin: 0 auto;
+}
+.container-header{
+    display: flex;
 }
 .container {
     height: 600px;
