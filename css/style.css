@@ -189,7 +189,5 @@ a{
 .description-list{
     display: flex;
     gap: 24px;
-}
-.description-list-1{
     width: calc((100% - 72px) / 4);
 }
