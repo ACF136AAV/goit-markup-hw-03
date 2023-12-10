@@ -130,7 +130,6 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    width: calc((100% - 72px) / 4);
 }
 .team{
     background-color: #F4F4FD;
@@ -163,7 +162,6 @@ a{
     display: flex;
 }
 .container {
-    max-width: 1440px;
     height: 600px;
     padding-left: 0;
     padding-right: 0;
@@ -172,6 +170,7 @@ a{
     display: flex;
     margin: 0 auto;
     padding: 0 15px;
+    width: 1158px;
 }
 .explanation{
     padding: 120px 0;
@@ -192,4 +191,7 @@ a{
 .description-list{
     display: flex;
     gap: 24px;
+}
+.description-list-1{
+    width: calc((100% - 72px) / 4);
 }
