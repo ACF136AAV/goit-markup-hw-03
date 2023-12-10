@@ -150,7 +150,6 @@ a{
 }
 #header-container{
     width: 1158px;
-    margin: 0 auto;
     padding: 0 15px 0 15px;
     margin-left: 0;
     margin-right: 0;
@@ -167,4 +166,5 @@ a{
     padding-right: 0;
     margin-left: 0; 
     margin-right: 0;
+    margin: 0 auto;
 }
