@@ -71,7 +71,6 @@ a{
 .address-list{
     display: flex;
     gap: 40px;
-    display: flex;
 }
 .address-info{
     font-size: 16px;
