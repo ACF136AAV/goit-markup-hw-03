@@ -24,7 +24,9 @@ img{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-{
     color: #2E2F42;
@@ -142,11 +144,13 @@ a{
 }
 .footer-container{
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .text-footer{
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -155,6 +159,7 @@ a{
     margin-left: 0;
     margin-right: 0;
     display: flex;
+    margin: 0 auto;
 }
 .container {
     height: 600px;
