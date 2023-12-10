@@ -166,6 +166,9 @@ a{
 }
 .explanation{
     padding: 120px 0;
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
     position: absolute;
@@ -189,9 +192,4 @@ a{
 .description-list{
     display: flex;
     gap: 24px;
-}
-.explanation{
-    display: flex;
-    gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
