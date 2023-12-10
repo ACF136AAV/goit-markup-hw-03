@@ -13,8 +13,8 @@
     <title>Document</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
-      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -23,20 +23,19 @@
   <body>
     <!--Header content-->
     <header class="header">
-      <div class="container">
-      <nav>
+      <div class="headercontainer">
+        <nav class="nav-head">
           <a href="./index.html" class="logo_"
             >Web<span class="logo-">Studio</span>
           </a>
-          <ul class="nav-head">
+          <ul class="nav-list">
             <li><a href="./index.html" class="nav-links">Studio</a></li>
             <li><a href="" class="nav-links">Portfolio</a></li>
             <li><a href="" class="nav-links">Contacts</a></li>
           </ul>
-      </nav>
-      <address class="address-head">
-        <div class="address-container">
-          <ul>
+        </nav>
+        <address class="address-head">
+          <ul class="address-list">
             <li>
               <a href="mailto:info@devstudio.com" class="address-info"
                 >info@devstudio.com</a
@@ -47,15 +46,17 @@
                 >+11 (000) 111-11-11</a
               >
             </li>
-          </ul> 
-      </address>
+          </ul>
+        </address>
       </div>
     </header>
     <!--Main content-->
     <main>
       <section class="main-sections">
-        <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="btn">Order Service</button>
+        <div class="container">
+          <h1 class="main-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="btn">Order Service</button>
+        </div>
       </section>
       <section>
         <h2 class="sub-title">Content</h2>
