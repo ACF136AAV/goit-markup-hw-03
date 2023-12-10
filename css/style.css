@@ -186,6 +186,9 @@ a{
         text-transform: capitalize;
         color: #2e2f42;
 }
+.description-list{
+    display: flex;
+}
 .description-list-1{
     display: flex;
     gap: 24px;
