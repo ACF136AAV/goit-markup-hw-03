@@ -148,7 +148,7 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.header-container{
+#header-container{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
