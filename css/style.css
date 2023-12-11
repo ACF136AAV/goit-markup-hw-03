@@ -8,9 +8,6 @@ body{
     color: #434455;
     background-color: #FFFFFF;
 }
-a{
-    display: inline-block;
-}
 ul{
     margin: 0;
     padding: 0;
@@ -29,6 +26,9 @@ img{
     text-transform: uppercase;
     margin-right: 76px;
     margin-bottom: 16px;
+}
+.logo_footer{
+    display: inline-block;
 }
 .logo-{
     color: #2E2F42;
