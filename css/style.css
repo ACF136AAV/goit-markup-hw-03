@@ -16,7 +16,7 @@ ul{
 img{
     display: block
 }
-.logo_{
+.logo{
     font-family: "Raleway", sans-serif;
     color: #4D5AE5;
     font-weight: 700;
@@ -165,7 +165,6 @@ a{
     height: 600px;
     padding-left: 0;
     padding-right: 0;
-    display: flex;
     padding: 0 15px;
     width: 1158px;
     margin: 0 auto
