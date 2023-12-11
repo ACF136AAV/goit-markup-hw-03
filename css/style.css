@@ -33,6 +33,7 @@ img{
  }
 .logo-footer{
     color: #F4F4FD;
+    display: inline-block;
 }
 a{
      text-decoration: none;
@@ -163,6 +164,7 @@ a{
 }
 .container-header{
     display: flex;
+    margin: 0 auto;
 }
 .container {
     height: 600px;
