@@ -165,11 +165,10 @@ a{
     height: 600px;
     padding-left: 0;
     padding-right: 0;
-    margin-left: 0; 
-    margin-right: 0;
     display: flex;
     padding: 0 15px;
     width: 1158px;
+    margin: 0 auto
 }
 .explanation{
     padding: 120px 0;
