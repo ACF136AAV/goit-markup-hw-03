@@ -40,7 +40,6 @@ a{
 .nav-head{
     display: flex;
     align-items: center;
-    margin: 0 auto;
     width: 1158px;
 }
 .nav-list{
@@ -163,7 +162,6 @@ a{
 }
 .container-header{
     display: flex;
-    margin: 0 auto;
 }
 .container {
     height: 600px;
@@ -172,7 +170,6 @@ a{
     margin-left: 0; 
     margin-right: 0;
     display: flex;
-    margin: 0 auto;
     padding: 0 15px;
     width: 1158px;
 }
@@ -235,5 +232,5 @@ a{
     margin-bottom: 8px;
 }
 .address-conteiner{
-margin: 0 auto;
+
 }
