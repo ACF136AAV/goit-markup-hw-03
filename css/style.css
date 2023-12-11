@@ -40,7 +40,6 @@ a{
 .nav-head{
     display: flex;
     align-items: center;
-    width: 1158px;
 }
 .nav-list{
     color: #2E2F42;
@@ -153,7 +152,6 @@ a{
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
     padding: 0 15px 0 15px;
     margin-left: 0;
     margin-right: 0;
