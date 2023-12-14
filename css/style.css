@@ -25,16 +25,8 @@ ul{
 img{
     display: block
 }
-.logo-head{
-    font-family: "Raleway", sans-serif;
-    color: #4D5AE5;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-right: 76px;
+a{
+
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -45,7 +37,6 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    margin-bottom: 16px;
     display: inline-block;
 }
 .logo-{
@@ -83,8 +74,7 @@ a{
 
 .address-head{
     font-style: normal;
-    display: flex;
-    margin: 0 auto;
+    margin-left: auto;
 }
 .address-list{
     display: flex;
@@ -122,7 +112,7 @@ a{
 .list-description{
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
-        border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
 }
 .btn{
     background-color: #4D5AE5;
@@ -156,6 +146,7 @@ a{
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: left;
+    padding-bottom: 8px;
 }
 .text-dscr{
     font-size: 16px;
@@ -197,24 +188,16 @@ a{
     max-height: 72px;
 }
 .container {
-    height: 600px;
     padding-left: 0;
     padding-right: 0;
     padding: 0 15px;
     width: 1158px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 .explanation{
-    gap: 24px;
-    width: 1158px;
-    min-width: 300px;
-    justify-content: center;
-}
-.exp-cont{
-    min-width: 1128px;
-    max-height: 224px;
-    margin-top: 100px;
-    margin-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: calc(100% - 30px);
 }
 .exp-list{
     display:inline;
@@ -245,8 +228,16 @@ a{
     gap: 24px;
 }
 .sub-title{
+    color: #2E2F42;
     margin-bottom: 72px;
     text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 .subtitle-list{
     display: flex;
@@ -261,7 +252,6 @@ a{
 .portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
-    min-height: 1250px;
 }
 .portfolio-list{
     display: flex;
@@ -276,5 +266,4 @@ a{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
